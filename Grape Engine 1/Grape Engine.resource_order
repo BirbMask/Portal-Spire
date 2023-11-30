@@ -1,0 +1,8 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_player_entergate_0","order":1,"path":"sprites/spr_player_entergate_0/spr_player_entergate_0.yy",},
+    {"name":"spr_player_move_02646","order":2,"path":"sprites/spr_player_move_02646/spr_player_move_02646.yy",},
+    {"name":"spr_player_move_0","order":1,"path":"sprites/spr_player_move_0/spr_player_move_0.yy",},
+  ],
+}
