@@ -50,7 +50,7 @@ function scr_player_Sjump() //scr_player_Sjump
         state = (123 << 0)
         machhitAnim = 0
     }
-    else if (key_slap2 && character == "P" && sprite_index != spr_superspringplayer && sprite_index != spr_player_Sjumpcancelstart)
+    else if ((key_slap2  || key_attack2) && character == "P" && sprite_index != spr_superspringplayer && sprite_index != spr_player_Sjumpcancelstart)
     {
         image_index = 0
         sprite_index = spr_player_Sjumpcancelstart
@@ -66,7 +66,7 @@ function scr_player_Sjump() //scr_player_Sjump
             movespeed = 12
             image_index = 0
             sprite_index = spr_player_Sjumpcancel
-            state = (80 << 0)
+            state = (121 << 0)
             with (instance_create(x, y, obj_crazyruneffect))
                 image_xscale = other.xscale
         }

@@ -68,7 +68,7 @@ function scr_player_mach3() { //scr_player_mach3
 		{
 			movespeed += 0.02
 		}
-	}					// Up to here btw
+	}				// Up to here btw
 	crouchslideAnim = 1
 	if ((!key_jump2) && ((jumpstop == 0) && (vsp < 0.5)))
 	{
@@ -92,12 +92,14 @@ function scr_player_mach3() { //scr_player_mach3
 	}
 	if (fightball == 0)
 	{
-		if (sprite_index == spr_mach3jump && floor(image_index) == (image_number - 1))
-			sprite_index = spr_mach4
-		if (floor(image_index) == (image_number - 1) && (sprite_index == spr_rollgetup || sprite_index == spr_mach3hit || sprite_index == spr_dashpadmach))
-			sprite_index = spr_mach4
-		if (sprite_index == spr_mach2jump && grounded && vsp > 0)
-			sprite_index = spr_mach4
+		 if (sprite_index == spr_mach3jump && floor(image_index) == (image_number - 1))
+                    sprite_index = spr_mach4
+                if (sprite_index == spr_player_Sjumpcancel && grounded)
+                    sprite_index = spr_mach4
+                if (floor(image_index) == (image_number - 1) && (sprite_index == spr_rollgetup || sprite_index == spr_mach3hit || sprite_index == spr_dashpadmach))
+                    sprite_index = spr_mach4
+                if (sprite_index == spr_mach2jump && grounded && vsp > 0)
+                    sprite_index = spr_mach4
 		if (movespeed > 16 && sprite_index != spr_crazyrun && sprite_index != spr_player_Sjumpcancelstart && sprite_index != spr_taunt)
 		{
 			mach4mode = 1
@@ -169,7 +171,7 @@ function scr_player_mach3() { //scr_player_mach3
         else
             sprite_index = spr_player_machroll
 	}
-	if (key_slap2 && (!((shotgunAnim == 1) && key_up)))
+	if (key_slap2 && (((shotgunAnim == 0) && !key_up)))
 	{
 	    alarm[8] = 60
 		flash = 1
@@ -183,15 +185,28 @@ function scr_player_mach3() { //scr_player_mach3
 	    else
 	        sprite_index = spr_shotgunsuplexdash
 	}
+	  else if ((key_slap2 || input_buffer_slap < 8) && key_up)
+    {
+        state = (80 << 0)
+        image_index = 0
+        sprite_index = spr_player_breakdanceuppercut
+        vsp = -14
+        movespeed = hsp
+        particle_set_scale((4 << 0), xscale, 1)
+        create_particle(x, y, (4 << 0), 0)
+    }
+	    
 	if (((!grounded) && (place_meeting((x + hsp), y, obj_solid) || scr_solid_slope((x + hsp), y)) && (!(place_meeting((x + hsp), y, obj_destructibles))) && (!(place_meeting((x + hsp), y, obj_mach3solid))) && (!(place_meeting((x + hsp), y, obj_metalblock)))) || (grounded && (place_meeting((x + sign(hsp)), (y - 16), obj_solid) || scr_solid_slope((x + sign(hsp)), (y - 16))) && (!(place_meeting((x + hsp), y, obj_destructibles))) && (!(place_meeting((x + hsp), y, obj_mach3solid))) && (!(place_meeting((x + hsp), y, obj_metalblock))) && place_meeting(x, (y + 1), obj_slope)))
 	{
 		wallspeed = movespeed
+		grabclimbbuffer = 0
 		if (vsp > 0)
 			wallspeed -= vsp
 		state = (37 << 0)
 	}
 	if ((!grounded) && place_meeting((x + sign(hsp)), y, obj_climbablewall) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))) && (!(place_meeting((x + sign(hsp)), y, obj_metalblock))))
 	{
+		grabclimbbuffer = 0
 		wallspeed = movespeed
 		state = (37 << 0)
 	}

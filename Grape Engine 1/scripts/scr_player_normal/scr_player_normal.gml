@@ -18,7 +18,7 @@ function state_player_normal() //state_player_normal
         input_up_buffer = 0
         input_down_buffer = 0
     }
-    if key_up
+    if key_taunt
         breakdance_speed = Approach(breakdance_speed, 0.6, 0.005)
     else
         breakdance_speed = 0.25
@@ -67,7 +67,7 @@ function state_player_normal() //state_player_normal
                 sprite_index = spr_pistolwalk
             else if mort
                 sprite_index = spr_player_mortwalk
-            else if key_up
+            else if key_taunt
                 sprite_index = spr_player_breakdance
             else if (global.minutes == 0 && global.seconds == 0)
                 sprite_index = spr_hurtwalk
@@ -134,7 +134,7 @@ function state_player_normal() //state_player_normal
                         sprite_index = spr_player_pistolidle
                     else if mort
                         sprite_index = spr_player_mortidle
-                    else if key_up
+                    else if key_taunt
                         sprite_index = spr_player_breakdance
                     else if (global.minutes == 0 && global.seconds == 0)
                         sprite_index = spr_hurtidle

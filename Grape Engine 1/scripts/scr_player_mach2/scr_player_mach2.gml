@@ -243,7 +243,7 @@ function scr_player_mach2() //scr_player_mach2
         sprite_index = spr_clown
     if mortjump
         sprite_index = spr_player_mortjumpstart
-    if key_slap2
+    if key_slap2 && !key_up
     {
         sprite_index = spr_suplexdash
         suplexmove = 1
@@ -254,6 +254,16 @@ function scr_player_mach2() //scr_player_mach2
             movespeed = 5
         image_index = 0
         flash = 1
+    }
+	    else if ((key_slap2 || input_buffer_slap < 8) && key_up)
+    {
+        state = (80 << 0)
+        image_index = 0
+        sprite_index = spr_player_breakdanceuppercut
+        vsp = -14
+        movespeed = hsp
+        particle_set_scale((4 << 0), xscale, 1)
+        create_particle(x, y, (4 << 0), 0)
     }
     if (key_shoot2 && shotgunAnim == 1)
         scr_shotgunshoot()

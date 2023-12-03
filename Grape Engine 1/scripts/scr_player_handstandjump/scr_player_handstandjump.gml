@@ -96,23 +96,20 @@ function scr_player_handstandjump() //scr_player_handstandjump
         movespeed = 12
         crouchslipbuffer = 25
         grav = 0.5
-        sprite_index = spr_player_Sjumpcancelland
+        sprite_index = spr_player_crouchslip
         image_index = 0
         machhitAnim = 0
         state = (5 << 0)
     }
     mask_index = spr_player_mask
-    if (((!grounded) && (place_meeting((x + hsp), y, obj_solid) || scr_solid_slope((x + hsp), y)) && (!(place_meeting((x + hsp), y, obj_destructibles)))) || (grounded && (place_meeting((x + sign(hsp)), (y - 16), obj_solid) || scr_solid_slope((x + sign(hsp)), (y - 16))) && (!(place_meeting((x + hsp), y, obj_destructibles))) && (!(place_meeting((x + hsp), y, obj_metalblock))) && scr_slope()))
+  if (((!grounded) && (place_meeting((x + hsp), y, obj_solid) || scr_solid_slope((x + hsp), y)) && (!(place_meeting((x + hsp), y, obj_destructibles)))) || (grounded && (place_meeting((x + sign(hsp)), (y - 16), obj_solid) || scr_solid_slope((x + sign(hsp)), (y - 16))) && (!(place_meeting((x + hsp), y, obj_destructibles))) && (!(place_meeting((x + hsp), y, obj_metalblock))) && scr_slope()))
     {
-        if key_attack
-        {
-            wallspeed = movespeed
-            if (vsp > 0)
-                wallspeed -= vsp
-            state = (37 << 0)
-        }
+        wallspeed = 6
+		grabclimbbuffer = 10
+        state =  (37 << 0)
+    
     }
-    if ((grounded || (!key_attack)) && scr_solid((x + xscale), y) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))) && ((!(place_meeting((x + sign(hsp)), y, obj_slope))) || scr_solid_slope((x + sign(hsp)), y)))
+    if ((grounded && scr_solid((x + xscale), y) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))) && ((!(place_meeting((x + sign(hsp)), y, obj_slope))) || scr_solid_slope((x + sign(hsp)), y))))
     {
         var _bump = ledge_bump((vsp >= 0 ? 32 : 22))
         if _bump

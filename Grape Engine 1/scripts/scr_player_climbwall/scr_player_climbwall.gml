@@ -22,7 +22,9 @@ function scr_player_climbwall() //scr_player_climbwall
                 sprite_index = spr_machclimbwall
             else
                 sprite_index = spr_player_clingwall
-            if ((!key_attack) && (!skateboarding))
+				 if (grabclimbbuffer > 0)
+                grabclimbbuffer--
+            if ((!key_attack) && (!skateboarding) && grabclimbbuffer = 0)
             {
                 state = (0 << 0)
                 movespeed = 0

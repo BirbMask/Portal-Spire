@@ -11,7 +11,7 @@ function scr_player_tumble() //scr_player_tumble
     mask_index = spr_crouchmask
     if (sprite_index == spr_tumblestart)
         movespeed = 6
-    if ((!grounded) && (sprite_index == spr_player_machroll || sprite_index == spr_mach2jump || sprite_index == spr_player_backslide || sprite_index == spr_player_backslideland))
+    if ((!grounded) && (sprite_index == spr_player_machroll || sprite_index == spr_mach2jump || sprite_index == spr_player_backslide || sprite_index == spr_crouchslip || sprite_index == spr_player_backslideland))
     {
         vsp = 10
         sprite_index = spr_dive
@@ -21,14 +21,13 @@ function scr_player_tumble() //scr_player_tumble
         sprite_index = spr_player_machroll
         image_index = 0
     }
-    if (grounded && sprite_index != spr_tumble)
-        movespeed -= 0.05
     if (sprite_index == spr_dive && key_jump)
     {
         sprite_index = spr_player_groundpoundcancel1
         image_index = 0
         state = (108 << 0)
         vsp = -6
+		dir = xscale;
     }
     if (movespeed <= 2 && sprite_index != spr_player_breakdance)
         state = (0 << 0)
@@ -39,13 +38,6 @@ function scr_player_tumble() //scr_player_tumble
         image_index = 0
         sprite_index = spr_player_machroll
     }
-    if (sprite_index == spr_player_mach2jump && grounded)
-    {
-        image_index = 0
-        sprite_index = spr_player_machroll
-    }
-    if (sprite_index == spr_crouchslip && (!grounded))
-        sprite_index = spr_player_jumpdive2
     if (sprite_index == spr_player_Sjumpcancelland && floor(image_index) == (image_number - 1))
         sprite_index = spr_player_Sjumpcancelslide
     if (sprite_index == spr_player_jumpdive2 && grounded)

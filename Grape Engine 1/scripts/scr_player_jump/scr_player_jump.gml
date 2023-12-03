@@ -279,7 +279,7 @@ function state_player_jump() //state_player_jump
             shake_mag_acc = (30 / room_speed)
         }
     }
-    if (key_slap2 && sprite_index != spr_suplexbump)
+    if (key_slap2 && sprite_index != spr_suplexbump && !key_up)
     {
         image_index = 0
         sprite_index = spr_suplexdashjumpstart
@@ -290,6 +290,17 @@ function state_player_jump() //state_player_jump
         state = (42 << 0)
         movespeed = 5
     }
+	    else if ((key_slap2 || input_buffer_slap < 8) && key_up)
+    {
+        state = (80 << 0)
+        image_index = 0
+        sprite_index = spr_player_breakdanceuppercut
+        vsp = -10
+        movespeed = hsp
+        particle_set_scale((4 << 0), xscale, 1)
+        create_particle(x, y, (4 << 0), 0)
+    }
+    
     if (key_shoot2 && shotgunAnim)
         scr_shotgunshoot()
     if (key_slap2 && shoot)

@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "Disclaimer",
-  "creationCodeFile": "${project_dir}/rooms/rm_eggplantdisclaimer/RoomCreationCode.gml",
+  "creationCodeFile": "rooms/Disclaimer/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

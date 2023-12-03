@@ -319,6 +319,7 @@ hitvsp = 0
 hitstunned = 0
 hitxscale = 1
 stunned = 0
+grabclimbbuffer = 0
 hitLag = 25
 supercharge = 0
 mort = 0
