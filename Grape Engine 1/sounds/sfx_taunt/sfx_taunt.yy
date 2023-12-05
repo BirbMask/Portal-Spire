@@ -10,14 +10,14 @@
   "bitRate": 192,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 1.927891,
   "parent": {
     "name": "General",
     "path": "folders/Sounds/SFX/General.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sfx_taunt",
+  "soundFile": "sfx_taunt.ogg",
   "type": 1,
-  "volume": 0.34,
+  "volume": 1.0,
 }

@@ -10,7 +10,7 @@
   "bitRate": 192,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.0,
+  "duration": 3.645556,
   "parent": {
     "name": "General",
     "path": "folders/Sounds/SFX/General.yy",
