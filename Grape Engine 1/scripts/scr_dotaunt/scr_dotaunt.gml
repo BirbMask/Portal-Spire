@@ -14,6 +14,7 @@ function scr_dotaunt() //scr_dotaunt
             state = (84 << 0)
             if (supercharged && key_up)
             {
+				 scr_soundeffect(sfx_supertaunt)
                 image_index = 0
                 sprite_index = choose(spr_supertaunt1, spr_supertaunt2, spr_supertaunt3, spr_supertaunt4)
             }

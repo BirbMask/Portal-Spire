@@ -4025,6 +4025,7 @@
     {"id":{"name":"obj_vigidelete","path":"objects/obj_vigidelete/obj_vigidelete.yy",},},
     {"id":{"name":"obj_ancho","path":"objects/obj_ancho/obj_ancho.yy",},},
     {"id":{"name":"obj_boxcrusher","path":"objects/obj_boxcrusher/obj_boxcrusher.yy",},},
+    {"id":{"name":"sfx_supertaunt","path":"sounds/sfx_supertaunt/sfx_supertaunt.yy",},},
     {"id":{"name":"spr_ufogrounded_shoot","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},},
     {"id":{"name":"spr_flush_skullOLD","path":"sprites/spr_flush_skullOLD/spr_flush_skullOLD.yy",},},
     {"id":{"name":"spr_flush_pizzaOLD","path":"sprites/spr_flush_pizzaOLD/spr_flush_pizzaOLD.yy",},},
