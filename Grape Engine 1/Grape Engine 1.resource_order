@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_player_move2645","order":1,"path":"sprites/spr_player_move2645/spr_player_move2645.yy",},
+  ],
 }
