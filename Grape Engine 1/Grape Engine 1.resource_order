@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
-    {"name":"spr_player_move2645","order":1,"path":"sprites/spr_player_move2645/spr_player_move2645.yy",},
     {"name":"sfx_supertaunt","order":1,"path":"sounds/sfx_supertaunt/sfx_supertaunt.yy",},
   ],
 }

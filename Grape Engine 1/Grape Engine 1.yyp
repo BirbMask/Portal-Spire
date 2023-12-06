@@ -2459,7 +2459,6 @@
     {"id":{"name":"spr_baconcollect","path":"sprites/spr_baconcollect/spr_baconcollect.yy",},},
     {"id":{"name":"badland_mart3","path":"rooms/badland_mart3/badland_mart3.yy",},},
     {"id":{"name":"spr_toppinshroom_run","path":"sprites/spr_toppinshroom_run/spr_toppinshroom_run.yy",},},
-    {"id":{"name":"spr_player_move2645","path":"sprites/spr_player_move2645/spr_player_move2645.yy",},},
     {"id":{"name":"badland_10","path":"rooms/badland_10/badland_10.yy",},},
     {"id":{"name":"spr_toppinshroom","path":"sprites/spr_toppinshroom/spr_toppinshroom.yy",},},
     {"id":{"name":"spr_toppinshroom_pause","path":"sprites/spr_toppinshroom_pause/spr_toppinshroom_pause.yy",},},
