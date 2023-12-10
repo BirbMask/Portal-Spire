@@ -27,9 +27,9 @@ if (prevpillar_on_camera != pillar_on_camera)
 }
 if global.panic
 {
-    if (music != mu_pizzatime && music != mu_finalescape)
+    if (music != mu_realitycollapse && music != mu_finalescape)
     {
-        music = mu_pizzatime
+        music = mu_realitycollapse
         audio_stop_sound(musicID)
         musicID = scr_music(music)
         if (pillarmusicID != -4)

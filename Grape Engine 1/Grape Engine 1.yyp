@@ -472,7 +472,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"spr_plug","path":"sprites/spr_plug/spr_plug.yy",},},
@@ -4648,7 +4648,7 @@
     {"id":{"name":"spr_ninja_stun","path":"sprites/spr_ninja_stun/spr_ninja_stun.yy",},},
     {"id":{"name":"spr_peppinoswitch1","path":"sprites/spr_peppinoswitch1/spr_peppinoswitch1.yy",},},
     {"id":{"name":"scr_monster_utilities","path":"scripts/scr_monster_utilities/scr_monster_utilities.yy",},},
-    {"id":{"name":"mu_pizzatime","path":"sounds/mu_pizzatime/mu_pizzatime.yy",},},
+    {"id":{"name":"mu_realitycollapse","path":"sounds/mu_realitycollapse/mu_realitycollapse.yy",},},
     {"id":{"name":"spr_flush_pizza","path":"sprites/spr_flush_pizza/spr_flush_pizza.yy",},},
     {"id":{"name":"spr_secretportal_spawnopen","path":"sprites/spr_secretportal_spawnopen/spr_secretportal_spawnopen.yy",},},
     {"id":{"name":"scr_player_barrel","path":"scripts/scr_player_barrel/scr_player_barrel.yy",},},
@@ -5351,6 +5351,7 @@
     {"roomId":{"name":"war_8","path":"rooms/war_8/war_8.yy",},},
     {"roomId":{"name":"war_9","path":"rooms/war_9/war_9.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Tilesets_and_Deco","autocrop":false,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-720611146259759149,},

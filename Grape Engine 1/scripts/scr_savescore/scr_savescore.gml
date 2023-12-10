@@ -29,7 +29,7 @@ function scr_savescore(argument0) //scr_savescore
 		scr_soundeffect(mu_rankc)
 	if global.rank = "d" || global.rank = "norank"
 		scr_soundeffect(mu_rankd)
-    audio_stop_sound(mu_pizzatime)
+    audio_stop_sound(mu_realitycollapse)
     audio_stop_sound(mu_noiseescape)
     audio_stop_sound(mu_dragonlair)
     audio_stop_sound(mu_snickchallenge)
