@@ -62,14 +62,31 @@ function scr_player_Sjump() //scr_player_Sjump
             xscale = move
         if (floor(image_index) == (image_number - 1))
         {
-            vsp = -5
+			if !key_up
+			{
+			vsp = -5
+			waterjetpack = 1
+			waterjetpacktimer = 20
             movespeed = 12
             image_index = 0
             sprite_index = spr_player_Sjumpcancel
             state = (121 << 0)
             with (instance_create(x, y, obj_crazyruneffect))
                 image_xscale = other.xscale
-        }
+			}
+			if key_up
+			{
+			vsp = -15
+			waterjetpack = 1
+			waterjetpacktimer = 20
+            movespeed = 12
+            image_index = 0
+            sprite_index = spr_player_Sjumpcancel
+            state = (121 << 0)
+            with (instance_create(x, y, obj_crazyruneffect))
+                image_xscale = other.xscale
+			}
+		}
     }
     if (character == "N" && key_jump2)
     {

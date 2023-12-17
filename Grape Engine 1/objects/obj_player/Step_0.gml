@@ -696,7 +696,11 @@ if (state != (58 << 0) && state != (84 << 0))
 }
 scr_playersounds()
 if grounded
+{
     doublejump = 0
+	waterjetpack = 0
+	waterjetpacktimer = 20
+}
 if (pogochargeactive == 1)
 {
     if (flashflicker == 0)

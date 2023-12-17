@@ -90,6 +90,30 @@ function scr_player_mach3() { //scr_player_mach3
 	    else
 	        vsp = -13
 	}
+	if waterjetpack = 1
+	 waterjetpacktimer--
+	if waterjetpacktimer > 0 && waterjetpack = true
+			{
+				if move == xscale
+			{
+			if (movespeed < 20)
+				{
+					if (mach4mode == 0)
+					if character == "P" && ispeppino = 0
+						movespeed += 0.045;
+						else
+							movespeed += 0.025;
+					else
+						movespeed += 0.1;
+				}
+			}
+				if fightball == 0
+				vsp = 0;
+			if (key_up && fightball == 0)
+				vsp = -3;
+			if (key_down && fightball == 0)
+				vsp = 3;
+			}
 	if (fightball == 0)
 	{
 		 if (sprite_index == spr_mach3jump && floor(image_index) == (image_number - 1))
@@ -200,8 +224,6 @@ function scr_player_mach3() { //scr_player_mach3
 	{
 		wallspeed = movespeed
 		grabclimbbuffer = 0
-		if (vsp > 0)
-			wallspeed -= vsp
 		state = (37 << 0)
 	}
 	if ((!grounded) && place_meeting((x + sign(hsp)), y, obj_climbablewall) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))) && (!(place_meeting((x + sign(hsp)), y, obj_metalblock))))
