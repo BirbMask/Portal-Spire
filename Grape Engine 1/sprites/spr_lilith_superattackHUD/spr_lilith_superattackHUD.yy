@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_peppino_superattackHUD",
+  "name": "spr_lilith_superattackHUD",
   "bbox_bottom": 237,
   "bbox_left": 1,
   "bbox_right": 372,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "",
+    "name": "spr_lilith_superattackHUD",
     "autoRecord": true,
     "backdropHeight": 1080,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dd1e2fdb-7568-4772-a23a-1ca557e7f5a3","path":"sprites/spr_peppino_superattackHUD/spr_peppino_superattackHUD.yy",},},},"Disabled":false,"id":"9dc60d0a-c307-4b18-9eb5-15a11358e4e1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d0198f11-1ab8-473b-a64a-6f9542437c6d","path":"sprites/spr_peppino_superattackHUD/spr_peppino_superattackHUD.yy",},},},"Disabled":false,"id":"47f89f9f-546b-4ba2-b947-31aba5bb4e09","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dd1e2fdb-7568-4772-a23a-1ca557e7f5a3","path":"sprites/spr_lilith_superattackHUD/spr_lilith_superattackHUD.yy",},},},"Disabled":false,"id":"9dc60d0a-c307-4b18-9eb5-15a11358e4e1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d0198f11-1ab8-473b-a64a-6f9542437c6d","path":"sprites/spr_lilith_superattackHUD/spr_lilith_superattackHUD.yy",},},},"Disabled":false,"id":"47f89f9f-546b-4ba2-b947-31aba5bb4e09","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
