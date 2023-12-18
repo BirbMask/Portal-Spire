@@ -114,11 +114,21 @@ function scr_player_mach3() { //scr_player_mach3
 			if (key_down && fightball == 0)
 				vsp = 3;
 			}
+	if waterjetpacktimer = 0 && waterjetpack = true && sprite_index != spr_player_waterjetpackfall
+	  {
+	  sprite_index = spr_player_waterjetpackfalltrans
+	  image_index = 0
+	 if floor(image_index) == image_number - 1 && sprite_index = spr_player_waterjetpackfalltrans
+	      {
+		sprite_index = spr_player_waterjetpackfall
+	    image_index = 0
+	      }
+	}
 	if (fightball == 0)
 	{
 		 if (sprite_index == spr_mach3jump && floor(image_index) == (image_number - 1))
                     sprite_index = spr_mach4
-                if (sprite_index == spr_player_Sjumpcancel && grounded)
+                if ((sprite_index == spr_player_waterjetpackboost || sprite_index == spr_player_waterjetpackfall ||  sprite_index == spr_player_waterjetpackfalltrans) && grounded)
                     sprite_index = spr_mach4
                 if (floor(image_index) == (image_number - 1) && (sprite_index == spr_rollgetup || sprite_index == spr_mach3hit || sprite_index == spr_dashpadmach))
                     sprite_index = spr_mach4

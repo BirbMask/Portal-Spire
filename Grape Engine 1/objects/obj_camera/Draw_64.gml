@@ -37,15 +37,10 @@ if (obj_player.state != (89 << 0))
 		else
 			pizzascore_index = 0
 	}
-	var sw = sprite_get_width(spr_heatmeter_fill)
-	var sh = sprite_get_height(spr_heatmeter_fill)
-	var b = global.stylemultiplier
+	var b = 0
 	var hud_xx = (121 + irandom_range((-collect_shake), collect_shake))
 	var hud_yy = ((70 + irandom_range((-collect_shake), collect_shake)) + hud_posY)
-	draw_sprite_part(spr_heatmeter_fill, pizzascore_index, 0, 0, (sw * b), sh, (hud_xx - 95), (hud_yy + 24))
 	shader_set(global.Pal_Shader)
-    pal_swap_set(spr_heatmeter_palette, global.stylethreshold, 0)
-	draw_sprite_ext(spr_heatmeter, pizzascore_index, hud_xx, hud_yy, 1, 1, 0, c_white, alpha)
 	shader_reset()
 	draw_sprite_ext(spr_pizzascore, pizzascore_index, hud_xx, hud_yy, 1, 1, 0, c_white, alpha)
 	var _score = global.collect

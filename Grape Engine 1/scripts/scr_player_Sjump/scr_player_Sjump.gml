@@ -69,7 +69,7 @@ function scr_player_Sjump() //scr_player_Sjump
 			waterjetpacktimer = 20
             movespeed = 12
             image_index = 0
-            sprite_index = spr_player_Sjumpcancel
+             sprite_index = spr_player_waterjetpackboost
             state = (121 << 0)
             with (instance_create(x, y, obj_crazyruneffect))
                 image_xscale = other.xscale
@@ -81,7 +81,7 @@ function scr_player_Sjump() //scr_player_Sjump
 			waterjetpacktimer = 20
             movespeed = 12
             image_index = 0
-            sprite_index = spr_player_Sjumpcancel
+            sprite_index = spr_player_waterjetpackboost
             state = (121 << 0)
             with (instance_create(x, y, obj_crazyruneffect))
                 image_xscale = other.xscale
