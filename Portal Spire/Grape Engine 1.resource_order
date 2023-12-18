@@ -1,6 +1,9 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"obj_parrallax","order":1,"path":"objects/obj_parrallax/obj_parrallax.yy",},
     {"name":"portal_spire_log2","order":1,"path":"sprites/portal_spire_log2/portal_spire_log2.yy",},
+    {"name":"spr_null","order":1,"path":"sprites/spr_null/spr_null.yy",},
+    {"name":"background_layer_sprite_get","order":1,"path":"scripts/background_layer_sprite_get/background_layer_sprite_get.yy",},
   ],
 }
