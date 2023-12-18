@@ -118,11 +118,6 @@ function scr_player_mach3() { //scr_player_mach3
 	  {
 	  sprite_index = spr_player_waterjetpackfalltrans
 	  image_index = 0
-	 if floor(image_index) == image_number - 1 && sprite_index = spr_player_waterjetpackfalltrans
-	      {
-		sprite_index = spr_player_waterjetpackfall
-	    image_index = 0
-	      }
 	}
 	if (fightball == 0)
 	{
@@ -132,6 +127,8 @@ function scr_player_mach3() { //scr_player_mach3
                     sprite_index = spr_mach4
                 if (floor(image_index) == (image_number - 1) && (sprite_index == spr_rollgetup || sprite_index == spr_mach3hit || sprite_index == spr_dashpadmach))
                     sprite_index = spr_mach4
+					 if floor(image_index) == image_number - 1 && sprite_index = spr_player_waterjetpackfalltrans
+		sprite_index = spr_player_waterjetpackfall
                 if (sprite_index == spr_mach2jump && grounded && vsp > 0)
                     sprite_index = spr_mach4
 		if (movespeed > 16 && sprite_index != spr_crazyrun && sprite_index != spr_player_Sjumpcancelstart && sprite_index != spr_taunt)
