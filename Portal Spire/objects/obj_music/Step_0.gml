@@ -1,8 +1,8 @@
 prevpillar_on_camera = pillar_on_camera
-if instance_exists(obj_hungrypillar)
+if instance_exists(obj_computer)
 {
     var p = 0
-    with (obj_hungrypillar)
+    with (obj_computer)
     {
         if bbox_in_camera(view_camera[0], 0)
             p = 1

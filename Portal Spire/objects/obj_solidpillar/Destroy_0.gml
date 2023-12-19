@@ -17,5 +17,5 @@ if destroy
         shake_mag_acc = (3 / room_speed)
     }
     with (instance_create(x, y, obj_sausageman_dead))
-        sprite_index = spr_hungrypillar_dead
+        sprite_index = spr_mainframe_micheal_dead
 }

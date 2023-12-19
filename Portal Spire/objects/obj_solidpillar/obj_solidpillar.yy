@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hungrypillar",
-    "path": "sprites/spr_hungrypillar/spr_hungrypillar.yy",
+    "name": "spr_mainframe_micheal",
+    "path": "sprites/spr_mainframe_micheal/spr_mainframe_micheal.yy",
   },
   "spriteMaskId": null,
   "visible": true,

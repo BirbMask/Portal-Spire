@@ -28,7 +28,7 @@ if (!global.panic)
             continue
         }
     }
-    if instance_exists(obj_hungrypillar)
+    if instance_exists(obj_computer)
     {
         pillarmusicID = scr_music(mu_dungeondepth)
         audio_sound_gain(pillarmusicID, 0, 0)
