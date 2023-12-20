@@ -1,9 +1,17 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Portal Spire Hub","order":1,"path":"folders/Rooms/Portal Spire Hub.yy",},
+  ],
   "ResourceOrderSettings": [
+    {"name":"spr_optionsBG_1","order":4,"path":"sprites/spr_optionsBG_1/spr_optionsBG_1.yy",},
+    {"name":"spr_optionsBG_2","order":5,"path":"sprites/spr_optionsBG_2/spr_optionsBG_2.yy",},
     {"name":"obj_parrallax","order":1,"path":"objects/obj_parrallax/obj_parrallax.yy",},
     {"name":"portal_spire_log2","order":1,"path":"sprites/portal_spire_log2/portal_spire_log2.yy",},
     {"name":"spr_null","order":1,"path":"sprites/spr_null/spr_null.yy",},
     {"name":"background_layer_sprite_get","order":1,"path":"scripts/background_layer_sprite_get/background_layer_sprite_get.yy",},
+    {"name":"spr_optionsBG_4","order":7,"path":"sprites/spr_optionsBG_4/spr_optionsBG_4.yy",},
+    {"name":"spr_arcadedoor","order":2,"path":"sprites/spr_arcadedoor/spr_arcadedoor.yy",},
+    {"name":"spr_optionsBG_3","order":6,"path":"sprites/spr_optionsBG_3/spr_optionsBG_3.yy",},
+    {"name":"spr_optionsBG_0","order":3,"path":"sprites/spr_optionsBG_0/spr_optionsBG_0.yy",},
   ],
 }
