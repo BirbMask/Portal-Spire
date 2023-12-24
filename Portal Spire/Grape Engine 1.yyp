@@ -474,7 +474,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"spr_plug","path":"sprites/spr_plug/spr_plug.yy",},},
@@ -5364,7 +5364,6 @@
     {"roomId":{"name":"war_9","path":"rooms/war_9/war_9.yy",},},
     {"roomId":{"name":"Floor_1","path":"rooms/Floor_1/Floor_1.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Tilesets_and_Deco","autocrop":false,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-720611146259759149,},
