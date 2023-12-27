@@ -1,2 +1,0 @@
-paletteselect = 1
-

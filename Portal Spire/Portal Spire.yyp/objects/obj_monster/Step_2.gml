@@ -1,2 +1,0 @@
-xs = image_xscale
-

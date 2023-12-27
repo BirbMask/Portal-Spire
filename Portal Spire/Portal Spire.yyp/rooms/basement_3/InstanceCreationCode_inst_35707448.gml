@@ -1,2 +1,0 @@
-targetRoom = Realtitlescreen
-targetDoor = "D"

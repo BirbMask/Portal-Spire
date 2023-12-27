@@ -1,2 +1,0 @@
-showtext = 0
-

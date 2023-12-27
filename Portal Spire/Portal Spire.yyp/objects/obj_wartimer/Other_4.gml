@@ -1,2 +1,0 @@
-warbg_init()
-

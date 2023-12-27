@@ -1,1 +1,0 @@
-targetRoom = basement_6

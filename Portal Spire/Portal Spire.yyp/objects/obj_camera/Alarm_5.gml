@@ -1,2 +1,0 @@
-combobubblevisible = (!combobubblevisible)
-
