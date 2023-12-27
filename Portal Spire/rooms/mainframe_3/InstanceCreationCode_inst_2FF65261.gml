@@ -1,0 +1,1 @@
+targetRoom = mainframe_secretA

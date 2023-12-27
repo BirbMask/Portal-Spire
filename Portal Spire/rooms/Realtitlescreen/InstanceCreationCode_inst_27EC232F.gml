@@ -1,2 +1,2 @@
 targetRoom = Floor_1
-targetDoor = "A"
+targetDoor = "D"
