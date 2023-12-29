@@ -3,8 +3,6 @@ function scr_player_climbwall() //scr_player_climbwall
     switch character
     {
         case "P":
-		if !(sprite_index = spr_player_waterjetpackboost || sprite_index = spr_player_waterjetpackfall || sprite_index = spr_player_waterjetpackfalltrans || sprite_index = spr_playerN_wallcling || sprite_index = spr_playerN_wallclingstart)
-		{
             if (windingAnim < 200)
                 windingAnim++
             move = (key_left + key_right)
@@ -92,26 +90,6 @@ function scr_player_climbwall() //scr_player_climbwall
             image_speed = 0.6
             if (!instance_exists(obj_cloudeffect))
                 instance_create(x, (y + 43), obj_cloudeffect)
-		}
-		else   
-		{
-			hsp = 0
-            if (sprite_index == spr_playerN_wallclingstart && floor(image_index) == (image_number - 1))
-                sprite_index = spr_playerN_wallcling
-            if (sprite_index == spr_playerN_wallcling)
-                vsp = 1
-            else
-                vsp = 0
-            wallclingcooldown = 0
-            if (floor(image_index) == (image_number - 1))
-            {
-                vsp = -15
-                state = (92 << 0)
-                sprite_index = spr_jump
-                image_index = 0
-            }
-            image_speed = 0.35
-		}
             break
         case "V":
             if (windingAnim < 200)

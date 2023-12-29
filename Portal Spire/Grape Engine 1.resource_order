@@ -6,6 +6,7 @@
     {"name":"spr_optionsBG_1","order":4,"path":"sprites/spr_optionsBG_1/spr_optionsBG_1.yy",},
     {"name":"spr_optionsBG_2","order":5,"path":"sprites/spr_optionsBG_2/spr_optionsBG_2.yy",},
     {"name":"obj_parrallax","order":1,"path":"objects/obj_parrallax/obj_parrallax.yy",},
+    {"name":"spr_tv_exprsecret","order":1,"path":"sprites/spr_tv_exprsecret/spr_tv_exprsecret.yy",},
     {"name":"portal_spire_log2","order":1,"path":"sprites/portal_spire_log2/portal_spire_log2.yy",},
     {"name":"spr_null","order":1,"path":"sprites/spr_null/spr_null.yy",},
     {"name":"background_layer_sprite_get","order":1,"path":"scripts/background_layer_sprite_get/background_layer_sprite_get.yy",},
