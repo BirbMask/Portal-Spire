@@ -10,6 +10,7 @@
     {"name":"spr_optionsBG_2","order":5,"path":"sprites/spr_optionsBG_2/spr_optionsBG_2.yy",},
     {"name":"mainframe_2A","order":2,"path":"rooms/mainframe_2A/mainframe_2A.yy",},
     {"name":"obj_parrallax","order":1,"path":"objects/obj_parrallax/obj_parrallax.yy",},
+    {"name":"spr_tv_exprsecret","order":1,"path":"sprites/spr_tv_exprsecret/spr_tv_exprsecret.yy",},
     {"name":"mainframe_3","order":4,"path":"rooms/mainframe_3/mainframe_3.yy",},
     {"name":"portal_spire_log2","order":1,"path":"sprites/portal_spire_log2/portal_spire_log2.yy",},
     {"name":"mainframe_5","order":9,"path":"rooms/mainframe_5/mainframe_5.yy",},

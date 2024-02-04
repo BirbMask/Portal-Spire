@@ -53,7 +53,9 @@ switch state
         var _state = obj_player1.state
         if (_state == (84 << 0) || _state == (61 << 0))
             _state = obj_player1.tauntstoredstate
-        var _transfo = 1
+ if (instance_exists(obj_secretportal) && obj_secretportal.secret == 1 && (!obj_player.isgustavo))
+       idlespr = spr_tv_exprsecret
+	   var _transfo = 1
         switch _state
         {
             case (47 << 0):
