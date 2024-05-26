@@ -1,10 +1,10 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Portal Spire","order":1,"path":"folders/Rooms/Portal Spire.yy",},
     {"name":"Levels","order":1,"path":"folders/Rooms/Portal Spire/Levels.yy",},
     {"name":"Mainframe","order":1,"path":"folders/Rooms/Portal Spire/Levels/Mainframe.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"mainframe_2A","order":2,"path":"rooms/mainframe_2A/mainframe_2A.yy",},
     {"name":"obj_parrallax","order":1,"path":"objects/obj_parrallax/obj_parrallax.yy",},
     {"name":"spr_tv_exprsecret","order":1,"path":"sprites/spr_tv_exprsecret/spr_tv_exprsecret.yy",},

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_toggleablegameoptions",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Main",
-    "path": "folders/Scripts/Important Scripts/Main.yy",
+  "$GMScript":"",
+  "%Name":"scr_toggleablegameoptions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_toggleablegameoptions",
+  "parent":{
+    "name":"Main",
+    "path":"folders/Scripts/Important Scripts/Main.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

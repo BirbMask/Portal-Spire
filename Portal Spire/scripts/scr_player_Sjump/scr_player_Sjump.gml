@@ -13,7 +13,7 @@ function scr_player_Sjump() //scr_player_Sjump
     machhitAnim = 0
     if ((sprite_index == spr_superjump || sprite_index == spr_superspringplayer) && (character == "N" || character == "P"))
         vsp = sjumpvsp
-    sjumpvsp -= 0.1
+    sjumpvsp -= 0.2
     if (character == "V" && image_index > 3)
         vsp = -11
     if (sprite_index == spr_player_supersidejump)

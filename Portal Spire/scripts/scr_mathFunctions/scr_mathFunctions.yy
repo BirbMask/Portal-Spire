@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_mathFunctions",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Misc Scripts",
-    "path": "folders/Scripts/Unown Collisions/Misc Scripts.yy",
+  "$GMScript":"",
+  "%Name":"scr_mathFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_mathFunctions",
+  "parent":{
+    "name":"Misc Scripts",
+    "path":"folders/Scripts/Unown Collisions/Misc Scripts.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

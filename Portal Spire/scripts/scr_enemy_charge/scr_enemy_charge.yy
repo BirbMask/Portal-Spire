@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_enemy_charge",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Enemy",
-    "path": "folders/Scripts/Enemy.yy",
+  "$GMScript":"",
+  "%Name":"scr_enemy_charge",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_enemy_charge",
+  "parent":{
+    "name":"Enemy",
+    "path":"folders/Scripts/Enemy.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "_2",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "General",
-    "path": "folders/Scripts/Important Scripts/General.yy",
+  "$GMScript":"",
+  "%Name":"_2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_2",
+  "parent":{
+    "name":"General",
+    "path":"folders/Scripts/Important Scripts/General.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -271,6 +271,14 @@ function scr_player_mach2() //scr_player_mach2
         image_index = 0
         state = (43 << 0)
     }
+	if (sprite_index == spr_mach && (key_up && fightball == 0 && character == "P" && grounded && sprite_index != spr_dashpadmach && (!(place_meeting(x, y, obj_dashpad)))))
+	{
+		sprite_index = spr_superjumpprep
+		state = (99 << 0)
+		hsp = 0
+		image_index = 0
+	}
+	
     return;
 }
 

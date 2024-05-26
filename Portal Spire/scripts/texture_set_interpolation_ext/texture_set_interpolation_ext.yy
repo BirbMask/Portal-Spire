@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "texture_set_interpolation_ext",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Unorganized",
-    "path": "folders/Scripts/Unorganized.yy",
+  "$GMScript":"",
+  "%Name":"texture_set_interpolation_ext",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"texture_set_interpolation_ext",
+  "parent":{
+    "name":"Unorganized",
+    "path":"folders/Scripts/Unorganized.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

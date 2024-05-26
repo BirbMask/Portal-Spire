@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "scr_turret_states",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Unorganized",
-    "path": "folders/Scripts/Unorganized.yy",
+  "$GMScript":"",
+  "%Name":"scr_turret_states",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_turret_states",
+  "parent":{
+    "name":"Unorganized",
+    "path":"folders/Scripts/Unorganized.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

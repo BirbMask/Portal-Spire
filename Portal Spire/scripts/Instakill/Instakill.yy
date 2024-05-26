@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "Instakill",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Unorganized",
-    "path": "folders/Scripts/Unorganized.yy",
+  "$GMScript":"",
+  "%Name":"Instakill",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Instakill",
+  "parent":{
+    "name":"Unorganized",
+    "path":"folders/Scripts/Unorganized.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

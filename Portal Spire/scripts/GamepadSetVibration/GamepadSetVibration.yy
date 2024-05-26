@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "GamepadSetVibration",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "General",
-    "path": "folders/Scripts/Important Scripts/General.yy",
+  "$GMScript":"",
+  "%Name":"GamepadSetVibration",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GamepadSetVibration",
+  "parent":{
+    "name":"General",
+    "path":"folders/Scripts/Important Scripts/General.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

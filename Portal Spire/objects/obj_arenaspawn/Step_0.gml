@@ -89,7 +89,7 @@ switch state
         }
         if ((!instance_exists(obj_baddie)) && (!instance_exists(obj_arena_pizzaportal)) && ((!instance_exists(obj_arenadoor)) || _doorfinish))
         {
-            wave++
+            wave+= 1
             if (wave > maxwave)
             {
                 instance_destroy()

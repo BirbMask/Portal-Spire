@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "tile_layer_show",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Unorganized",
-    "path": "folders/Scripts/Unorganized.yy",
+  "$GMScript":"",
+  "%Name":"tile_layer_show",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tile_layer_show",
+  "parent":{
+    "name":"Unorganized",
+    "path":"folders/Scripts/Unorganized.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
